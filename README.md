@@ -3,8 +3,8 @@ github: https://github.com/rengwuxian/MaterialEditText
 
 use:  implementation 'com.rengwuxian.materialedittext:library:2.1.4'
 
-##全部参数
-#通用颜色
+## 全部参数
+# 通用颜色
 met_baseColor: 底部横线和所有文字在无焦点状态的基础色。默认为黑色。
 
 met_primaryColor: 底部横线和 Floating label 的高亮色（如果 met_floatingLabel 设置为 highlight 的话）。默认使用 baseColor。
@@ -30,7 +30,7 @@ met_floatingLabelAnimating: 是否使用动画来显示和消失 floating label 
 
 met_floatingLabelAlwaysShown: 是否总是显示 Floating label 。默认为 false 。
 
-#字数限制
+# 字数限制
 met_minCharacters: 限制的最少字数。默认为0。
 
 met_maxCharacters: 限制的最大字数。0为无限制。默认为0.
@@ -48,7 +48,7 @@ met_bottomTextSize: 底部文字（Helper/Error text）的字体大小。默认�
 
 met_minBottomTextLines:底部为文字预留的行数，不管是否有 Helper/Error text 正在显示。
 
-#字体（Typeface）
+# 字体（Typeface）
 met_typeface: 主文字的字体.
 
 met_accentTypeface: 辅助文字的字体.
